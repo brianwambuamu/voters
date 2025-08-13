@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <title>Home page</title>
+</head>
+<body>
+   <header>
+      <nav class="navbar">
+        <a class="logo" href="index.html">CivicVoiceKe<span></span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="candidates.html">CANDIDATES</a></li>
+          <li><a href="poling.html">VOTING STATIONS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="content">
+        <h2>Join us to get reliable and convinient information about elections.</h2>
+        <p>
+          Welcome to CivicVoiceKe, where we bridge the gap between citizens and their right to vote.
+        </p>
+         <a href="candidates.html" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See Candidates</a>
+          <a href="poling.html" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See Stations</a>
+            </div>
+            </div>
+      </div>
+    </section>
+    <br>
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About Us</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="image/voting1.jpg" alt="">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Hey There!</h2>
+                <p class="paragraph-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">CivicVoiceKe System is designed to empower citizens with accurate, timely, 
+and comprehensive information regarding local elections in Kajiado county. As voter apathy and 
+miscommunication contribute to low civic engagement, the systems seek to provide a 
+centralized digital platform where users can access verified data, candidate details, polling 
+locations and voter education materials. By integrating real-time updates, interactive maps and user feedback mechanisms, the platform aims to enhance electoral participation and 
+community awareness. Additionally, the system will support multilingual interfaces to serve 
+diverse communities, ensuring accessibility and inclusiveness. This proposal outlines the 
+background, design, objectives, and work plan for implementing the Local Election Awareness 
+System at a local government level</p>
+                <a href="candidates.html" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    
+    <section>
+   <div class="footer">
+        <div class="title reveal">
+
+        <h2 class="section-title">Civic Voice Ke</h2>
+      </div>
+      <div class="content">
+        <div class="services">
+          <h4>Services</h4>
+          <p><a href="#">Election Updates</a></p>
+          <p><a href="#">Upcoming Candidates</a></p>
+          <p><a href="#">Contacs</a></p>
+          <p><a href="#">Voting</a></p>
+        </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"
+              ><i class="fab fa-linkedin"></i> Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="candidates.html">Candidates</a></p>
+          <p><a href="poling.html">Voting stations</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            00100, Nairobi ,Kenya <br />
+            Home of Civic Voice Ke
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="#">+254703145615</a></p>
+          <h4 class="mail">Email</h4>
+          <p><a href="#">civic60@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        © 2025 CivicVoiceKe.
+      </footer>
+      </section>
+    </div>
+    <script>
+        const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+      // Toggle mobile menu on hamburger button click
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+      // Close mobile menu on close button click
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+</body>
+</html>
